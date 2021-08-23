@@ -15,12 +15,12 @@ const fromEuroToDollar = (euroAmmount) => {
     return dollarResult;
 }
 
-const fromDollartoYen = (dollarAmmount) => {
+const fromDollarToYen = (dollarAmmount) => {
     let yenResult = (dollarAmmount / oneEuroIs.USD) * oneEuroIs.JPY;
     return yenResult;
 }
 
-const fromYentoPound = (yenAmmount) => {
+const fromYenToPound = (yenAmmount) => {
     let poundResult = (yenAmmount / oneEuroIs.JPY) * oneEuroIs.GBP;
     return poundResult;
 }
